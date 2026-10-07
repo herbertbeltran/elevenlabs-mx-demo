@@ -1,0 +1,26 @@
+[
+  {
+    "id": "radio-spot-taqueria",
+    "format": "Radio spot (20s)",
+    "versions": {
+      "es-MX": "¿Antojo de unos buenos tacos? En Taquería El Fogón te esperamos con tortillas hechas a mano y salsas de la casa. Este fin de semana, la segunda orden va por nuestra cuenta. Taquería El Fogón: sabor que se queda contigo.",
+      "en": "Craving great tacos? At Taquería El Fogón we're waiting for you with handmade tortillas and house salsas. This weekend, your second order is on us. Taquería El Fogón: flavor that stays with you.",
+      "pt": "Com vontade de tacos de verdade? Na Taquería El Fogón esperamos você com tortilhas feitas à mão e molhos da casa. Neste fim de semana, o segundo pedido é por nossa conta."
+    }
+  },
+  {
+    "id": "social-ad-inmobiliaria",
+    "format": "Social video ad (15s)",
+    "versions": {
+      "es-MX": "Tu nuevo hogar en Zapopan está más cerca de lo que crees. Departamentos con amenidades, seguridad y excelente ubicación. Agenda tu visita hoy y recibe asesoría sin costo.",
+      "en": "Your new home in Zapopan is closer than you think. Apartments with amenities, security, and a great location. Book your visit today and get free advice."
+    }
+  },
+  {
+    "id": "ivr-clinica",
+    "format": "Phone menu / IVR",
+    "versions": {
+      "es-MX": "Gracias por llamar a Clínica Bienestar. Para agendar una cita, marque uno. Para resultados de laboratorio, marque dos. Para hablar con un asesor, marque cero."
+    }
+  }
+]
