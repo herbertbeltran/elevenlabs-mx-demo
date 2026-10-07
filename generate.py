@@ -31,10 +31,9 @@ def main() -> None:
                 text=text,
                 output_format="mp3_44100_128",
             )
+            data = b"".join(audio)
             out_file = OUTPUT_DIR / f"{script['id']}_{lang}.mp3"
-            with open(out_file, "wb") as f:
-                for chunk in audio:
-                    f.write(chunk)
+            out_file.write_bytes(data)
             print(f"✓ {script['format']} [{lang}] → {out_file}")
 
 

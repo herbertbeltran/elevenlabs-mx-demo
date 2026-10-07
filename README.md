@@ -6,6 +6,16 @@ It takes real-world ad formats common in Mexico (radio spots, social video ads, 
 
 ---
 
+## 🎧 Listen to the samples
+
+Generated with this project using the ElevenLabs API:
+
+| Format | Mexican Spanish | English | Portuguese |
+|---|---|---|---|
+| Radio spot (20s) | [▶ es-MX](samples/radio-spot-taqueria_es-MX.mp3) | [▶ en](samples/radio-spot-taqueria_en.mp3) | [▶ pt](samples/radio-spot-taqueria_pt.mp3) |
+| Social video ad (15s) | [▶ es-MX](samples/social-ad-inmobiliaria_es-MX.mp3) | [▶ en](samples/social-ad-inmobiliaria_en.mp3) | |
+| Phone menu / IVR | [▶ es-MX](samples/ivr-clinica_es-MX.mp3) | | |
+
 ## Why this matters
 
 Mexican clients want faster, higher-quality production on tighter budgets. Today a single radio spot often means booking voice talent, studio time, and revision rounds, which takes days and costs the same again for each extra language.
@@ -58,6 +68,7 @@ python business_case.py     # prints the cost comparison
 ## Project structure
 
 ```
+├── samples/           # generated MP3 voiceovers
 ├── scripts.json       # ad scripts in es-MX, en, and pt
 ├── generate.py        # turns each script into an MP3 voiceover
 ├── business_case.py   # traditional vs. AI voice cost comparison
@@ -66,6 +77,6 @@ python business_case.py     # prints the cost comparison
 
 ## About me
 
-Founder & Director at [OCTO Marketing Digital](https://www.octomd.com), Zapopan, Jalisco. I've closed more than US$935,000 in business, and I work with brands, agencies, and the Jalisco state government.
+Marketing Director at [OCTO Marketing Digital](https://www.octomd.com), Zapopan, Jalisco. I've closed more than US$935,000 in business, and I work with brands, agencies, and the Jalisco state government.
 
 📫 [LinkedIn](https://www.linkedin.com/in/herbertbeltran/) · [hbeltran@octomd.com](mailto:hbeltran@octomd.com)
